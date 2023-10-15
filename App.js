@@ -1,11 +1,7 @@
-import { Principal } from './src/Componentes/Principal';
-import { Cabecalho } from './src/Componentes/Cabecalho';
+import { Rotas } from './Rotas';
 
 export default function App() {
   return (
-    <>
-    <Cabecalho />
-    <Principal />
-    </>
+    <Rotas />
   );
 }
